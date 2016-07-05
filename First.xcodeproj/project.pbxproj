@@ -15,8 +15,14 @@
 		2616A4461D160DF6009A830D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2616A4441D160DF6009A830D /* LaunchScreen.storyboard */; };
 		2616A4511D160DF6009A830D /* FirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2616A4501D160DF6009A830D /* FirstTests.m */; };
 		2616A45C1D160DF6009A830D /* FirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2616A45B1D160DF6009A830D /* FirstUITests.m */; };
-		26BA2A261D2B6F52003E99A3 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A251D2B6F52003E99A3 /* MainTableViewController.m */; };
-		26BA2A291D2B7029003E99A3 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A281D2B7029003E99A3 /* MainTableViewCell.m */; };
+		26BA2A381D2BAF08003E99A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BA2A371D2BAF08003E99A3 /* Images.xcassets */; };
+		26BA2A531D2BBCDB003E99A3 /* HudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A3E1D2BBCDB003E99A3 /* HudViewController.m */; };
+		26BA2A541D2BBCDB003E99A3 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A421D2BBCDB003E99A3 /* MainTableViewController.m */; };
+		26BA2A551D2BBCDB003E99A3 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A451D2BBCDB003E99A3 /* MainTableViewCell.m */; };
+		26BA2A561D2BBCDB003E99A3 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A481D2BBCDB003E99A3 /* RefreshViewController.m */; };
+		26BA2A571D2BBCDB003E99A3 /* MyNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A4B1D2BBCDB003E99A3 /* MyNavigationC.m */; };
+		26BA2A581D2BBCDB003E99A3 /* HeaderAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A4F1D2BBCDB003E99A3 /* HeaderAnimationVC.m */; };
+		26BA2A591D2BBCDB003E99A3 /* headerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA2A521D2BBCDB003E99A3 /* headerCell.m */; };
 		60042B7EA0353CD81D08804D /* libPods-First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3C24E067D1A057A5A7A19C /* libPods-First.a */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +60,21 @@
 		2616A4571D160DF6009A830D /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2616A45B1D160DF6009A830D /* FirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstUITests.m; sourceTree = "<group>"; };
 		2616A45D1D160DF6009A830D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26BA2A241D2B6F52003E99A3 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
-		26BA2A251D2B6F52003E99A3 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		26BA2A271D2B7029003E99A3 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
-		26BA2A281D2B7029003E99A3 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		26BA2A371D2BAF08003E99A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26BA2A3D1D2BBCDB003E99A3 /* HudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudViewController.h; sourceTree = "<group>"; };
+		26BA2A3E1D2BBCDB003E99A3 /* HudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudViewController.m; sourceTree = "<group>"; };
+		26BA2A411D2BBCDB003E99A3 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		26BA2A421D2BBCDB003E99A3 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		26BA2A441D2BBCDB003E99A3 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		26BA2A451D2BBCDB003E99A3 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		26BA2A471D2BBCDB003E99A3 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		26BA2A481D2BBCDB003E99A3 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
+		26BA2A4A1D2BBCDB003E99A3 /* MyNavigationC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationC.h; sourceTree = "<group>"; };
+		26BA2A4B1D2BBCDB003E99A3 /* MyNavigationC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationC.m; sourceTree = "<group>"; };
+		26BA2A4E1D2BBCDB003E99A3 /* HeaderAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderAnimationVC.h; sourceTree = "<group>"; };
+		26BA2A4F1D2BBCDB003E99A3 /* HeaderAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderAnimationVC.m; sourceTree = "<group>"; };
+		26BA2A511D2BBCDB003E99A3 /* headerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerCell.h; sourceTree = "<group>"; };
+		26BA2A521D2BBCDB003E99A3 /* headerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerCell.m; sourceTree = "<group>"; };
 		4BDD0B4BB1DB977594F865B5 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 		E482429692FB9C19157F696E /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,18 +138,20 @@
 		2616A4321D160DF6009A830D /* First */ = {
 			isa = PBXGroup;
 			children = (
+				26BA2A3C1D2BBCDB003E99A3 /* HudVC */,
+				26BA2A3F1D2BBCDB003E99A3 /* Main */,
+				26BA2A461D2BBCDB003E99A3 /* MJRefreshVC */,
+				26BA2A491D2BBCDB003E99A3 /* Other */,
+				26BA2A4C1D2BBCDB003E99A3 /* UITestVC */,
 				2616A4361D160DF6009A830D /* AppDelegate.h */,
 				2616A4371D160DF6009A830D /* AppDelegate.m */,
 				2616A43C1D160DF6009A830D /* Main.storyboard */,
+				26BA2A371D2BAF08003E99A3 /* Images.xcassets */,
 				2616A4421D160DF6009A830D /* Assets.xcassets */,
 				2616A4441D160DF6009A830D /* LaunchScreen.storyboard */,
 				2616A4471D160DF6009A830D /* Info.plist */,
 				2616A43F1D160DF6009A830D /* First.xcdatamodeld */,
 				2616A4331D160DF6009A830D /* Supporting Files */,
-				26BA2A241D2B6F52003E99A3 /* MainTableViewController.h */,
-				26BA2A251D2B6F52003E99A3 /* MainTableViewController.m */,
-				26BA2A271D2B7029003E99A3 /* MainTableViewCell.h */,
-				26BA2A281D2B7029003E99A3 /* MainTableViewCell.m */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -161,6 +180,87 @@
 				2616A45D1D160DF6009A830D /* Info.plist */,
 			);
 			path = FirstUITests;
+			sourceTree = "<group>";
+		};
+		26BA2A3C1D2BBCDB003E99A3 /* HudVC */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A3D1D2BBCDB003E99A3 /* HudViewController.h */,
+				26BA2A3E1D2BBCDB003E99A3 /* HudViewController.m */,
+			);
+			path = HudVC;
+			sourceTree = "<group>";
+		};
+		26BA2A3F1D2BBCDB003E99A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A401D2BBCDB003E99A3 /* Controller */,
+				26BA2A431D2BBCDB003E99A3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		26BA2A401D2BBCDB003E99A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A411D2BBCDB003E99A3 /* MainTableViewController.h */,
+				26BA2A421D2BBCDB003E99A3 /* MainTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26BA2A431D2BBCDB003E99A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A441D2BBCDB003E99A3 /* MainTableViewCell.h */,
+				26BA2A451D2BBCDB003E99A3 /* MainTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26BA2A461D2BBCDB003E99A3 /* MJRefreshVC */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A471D2BBCDB003E99A3 /* RefreshViewController.h */,
+				26BA2A481D2BBCDB003E99A3 /* RefreshViewController.m */,
+			);
+			path = MJRefreshVC;
+			sourceTree = "<group>";
+		};
+		26BA2A491D2BBCDB003E99A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A4A1D2BBCDB003E99A3 /* MyNavigationC.h */,
+				26BA2A4B1D2BBCDB003E99A3 /* MyNavigationC.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		26BA2A4C1D2BBCDB003E99A3 /* UITestVC */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A4D1D2BBCDB003E99A3 /* Controller */,
+				26BA2A501D2BBCDB003E99A3 /* View */,
+			);
+			path = UITestVC;
+			sourceTree = "<group>";
+		};
+		26BA2A4D1D2BBCDB003E99A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A4E1D2BBCDB003E99A3 /* HeaderAnimationVC.h */,
+				26BA2A4F1D2BBCDB003E99A3 /* HeaderAnimationVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26BA2A501D2BBCDB003E99A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26BA2A511D2BBCDB003E99A3 /* headerCell.h */,
+				26BA2A521D2BBCDB003E99A3 /* headerCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		39F3491FBEF77570960E56E0 /* Pods */ = {
@@ -282,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2616A4461D160DF6009A830D /* LaunchScreen.storyboard in Resources */,
+				26BA2A381D2BAF08003E99A3 /* Images.xcassets in Resources */,
 				2616A4431D160DF6009A830D /* Assets.xcassets in Resources */,
 				2616A43E1D160DF6009A830D /* Main.storyboard in Resources */,
 			);
@@ -356,11 +457,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26BA2A261D2B6F52003E99A3 /* MainTableViewController.m in Sources */,
+				26BA2A551D2BBCDB003E99A3 /* MainTableViewCell.m in Sources */,
 				2616A4381D160DF6009A830D /* AppDelegate.m in Sources */,
+				26BA2A581D2BBCDB003E99A3 /* HeaderAnimationVC.m in Sources */,
 				2616A4411D160DF6009A830D /* First.xcdatamodeld in Sources */,
+				26BA2A571D2BBCDB003E99A3 /* MyNavigationC.m in Sources */,
+				26BA2A531D2BBCDB003E99A3 /* HudViewController.m in Sources */,
+				26BA2A591D2BBCDB003E99A3 /* headerCell.m in Sources */,
+				26BA2A561D2BBCDB003E99A3 /* RefreshViewController.m in Sources */,
+				26BA2A541D2BBCDB003E99A3 /* MainTableViewController.m in Sources */,
 				2616A4351D160DF6009A830D /* main.m in Sources */,
-				26BA2A291D2B7029003E99A3 /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +608,7 @@
 			baseConfigurationReference = 4BDD0B4BB1DB977594F865B5 /* Pods-First.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.First;
@@ -514,6 +621,7 @@
 			baseConfigurationReference = E482429692FB9C19157F696E /* Pods-First.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.First;

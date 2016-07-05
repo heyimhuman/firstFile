@@ -8,6 +8,9 @@
 
 #import "MainTableViewController.h"
 #import "MainTableViewCell.h"
+#import "HeaderAnimationVC.h"
+#import "RefreshViewController.h"
+#import "HudViewController.h"
 
 @interface MainTableViewController ()
 
@@ -15,8 +18,14 @@
 
 @implementation MainTableViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.alpha = 1;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.tableView.separatorStyle = UITableViewCellEditingStyleNone;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -87,6 +96,28 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    switch (indexPath.row) {
+        case 0:{
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            HeaderAnimationVC * vc = [sb instantiateViewControllerWithIdentifier:@"HeaderAnimationVC"];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 1:{
+            HudViewController * vc = [[HudViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        default:{
+            RefreshViewController * vc = [[RefreshViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            
+            break;
+    }
+    
 }
 
 /*

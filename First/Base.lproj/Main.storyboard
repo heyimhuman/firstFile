@@ -51,10 +51,72 @@
             </objects>
             <point key="canvasLocation" x="-141" y="222"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Header AnimationVC-->
+        <scene sceneID="5DB-8c-ufD">
+            <objects>
+                <viewController storyboardIdentifier="HeaderAnimationVC" id="rrr-zl-2fn" customClass="HeaderAnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lpc-Cj-YL5"/>
+                        <viewControllerLayoutGuide type="bottom" id="3aO-BY-eLV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RcM-bD-DQC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="166" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NLF-Gv-ek3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="166" id="WUa-7Q-hsh" customClass="headerCell">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="166"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WUa-7Q-hsh" id="i4U-M6-Quf">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nz-ec-Uhr">
+                                                    <rect key="frame" x="100" y="5" width="120" height="155"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="1nz-ec-Uhr" firstAttribute="leading" secondItem="i4U-M6-Quf" secondAttribute="leading" constant="100" id="KnP-zr-AB6"/>
+                                                <constraint firstAttribute="trailing" secondItem="1nz-ec-Uhr" secondAttribute="trailing" constant="100" id="VNJ-vX-23h"/>
+                                                <constraint firstAttribute="bottom" secondItem="1nz-ec-Uhr" secondAttribute="bottom" constant="5" id="ki4-ZI-o3I"/>
+                                                <constraint firstItem="1nz-ec-Uhr" firstAttribute="top" secondItem="i4U-M6-Quf" secondAttribute="top" constant="5" id="xZB-lb-JKY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="button" destination="1nz-ec-Uhr" id="Pb4-cG-3kp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="rrr-zl-2fn" id="GwT-4U-Kc1"/>
+                                    <outlet property="delegate" destination="rrr-zl-2fn" id="6q6-Bq-Ysl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NLF-Gv-ek3" firstAttribute="leading" secondItem="RcM-bD-DQC" secondAttribute="leading" id="G0G-vQ-7As"/>
+                            <constraint firstAttribute="trailing" secondItem="NLF-Gv-ek3" secondAttribute="trailing" id="PTI-fv-fFz"/>
+                            <constraint firstItem="3aO-BY-eLV" firstAttribute="top" secondItem="NLF-Gv-ek3" secondAttribute="bottom" id="n6P-80-fKd"/>
+                            <constraint firstItem="NLF-Gv-ek3" firstAttribute="top" secondItem="lpc-Cj-YL5" secondAttribute="bottom" constant="-20" id="uj5-U8-scf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="NLF-Gv-ek3" id="ErS-kb-d1o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sN8-gF-Mhj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="222"/>
+        </scene>
+        <!--My NavigationC-->
         <scene sceneID="rvh-Rc-Oa4">
             <objects>
-                <navigationController id="52A-92-ywO" sceneMemberID="viewController">
+                <navigationController id="52A-92-ywO" customClass="MyNavigationC" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m1B-m5-VWf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
