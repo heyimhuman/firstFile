@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"aaa");
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableView.separatorStyle = UITableViewCellEditingStyleNone;
     // Uncomment the following line to preserve selection between presentations.
