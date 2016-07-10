@@ -11,6 +11,9 @@
 #import "HeaderAnimationVC.h"
 #import "RefreshViewController.h"
 #import "HudViewController.h"
+#import "ZoomViewController.h"
+#import "TextColorViewController.h"
+#import "CATransitionViewController.h"
 
 @interface MainTableViewController ()
 
@@ -32,6 +35,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@""] forBarMetrics:UIBarMetricsDefault];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -107,6 +113,24 @@
         case 1:{
             HudViewController * vc = [[HudViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
+        
+            break;
+        }
+        case 2:{
+            ZoomViewController * vc = [[ZoomViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        case 3:{
+            TextColorViewController * vc = [[TextColorViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 4:{
+            CATransitionViewController * vc = [[CATransitionViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
             break;
         }
             

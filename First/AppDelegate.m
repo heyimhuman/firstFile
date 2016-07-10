@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "GuideView.h"
+
+#define DEF_PERSISTENT_GET_OBJECT(key) [[NSUserDefaults standardUserDefaults] objectForKey:key]
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic)UIView * view;
+@property (strong, nonatomic)UIImageView * launchView;
 
 @end
 
@@ -17,6 +23,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"launch");
+    // Override point for customization after application launch.
+    
     return YES;
 }
 

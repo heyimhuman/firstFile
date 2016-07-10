@@ -41,6 +41,7 @@ static const char MJRefreshHeaderKey = '\0';
         [self willChangeValueForKey:@"mj_header"]; // KVO
         objc_setAssociatedObject(self, &MJRefreshHeaderKey,
                                  mj_header, OBJC_ASSOCIATION_ASSIGN);
+    
         [self didChangeValueForKey:@"mj_header"]; // KVO
     }
 }
