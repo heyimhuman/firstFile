@@ -22,6 +22,7 @@
     [super viewDidLoad];
     //加载提示动画
     NSLog(@"this");
+    NSLog(@"this");
     _hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     _hud.mode = MBProgressHUDModeCustomView;
     
